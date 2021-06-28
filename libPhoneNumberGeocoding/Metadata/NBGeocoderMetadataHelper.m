@@ -8,7 +8,7 @@
 
 #import <sqlite3.h>
 
-#import "libPhoneNumberiOS/NBGeocoderMetadataHelper.h"
+#import "libPhoneNumberGeocoding/NBGeocoderMetadataHelper.h"
 #import "NBPhoneNumber.h"
 
 @implementation NBGeocoderMetadataHelper {
