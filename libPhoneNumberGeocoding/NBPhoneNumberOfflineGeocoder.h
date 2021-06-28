@@ -131,6 +131,10 @@ typedef NBGeocoderMetadataHelper *_Nonnull (^NBGeocoderMetadataHelperFactory)(NS
                            withLanguageCode:(NSString *)languageCode
                              withUserRegion:(NSString *)userRegion;
 
+- (nullable NSString *)countryNameForNumber:(NBPhoneNumber *)number
+                           withLanguageCode:(NSString *)languageCode;
+
+
 #pragma mark - Convenience Methods
 
 /**
